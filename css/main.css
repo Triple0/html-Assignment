@@ -1,5 +1,6 @@
+/* Introducing formatting into stylesheet*/
 h1 {
-    color:yellow;
+    color:rgb(235, 235, 41);
     
 }
 
@@ -10,4 +11,15 @@ h2 {
 
 body {
     background : grey;
+    background-image: url(./img/white-and-brown-house-2886284.jpg);
+}
+
+/* To target classes use ., All tags with same class name will be affected.*/
+.first {
+    color: whitesmoke;
+}
+
+/* To target ids use # by the name of the id. Only 1 id can be targeted at once*/
+#copyright {
+    color: white
 }
